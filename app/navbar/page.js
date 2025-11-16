@@ -23,7 +23,7 @@ export default function Navbar() {
     ["About Us", "/about"]
   ];
 
-  const loginLink = "/admin/login"; // always points here
+  const loginLink = "/about"; // always points here
 
   return (
     <nav className="sticky top-0 w-full bg-gradient-to-r from-white via-gray-50 to-gray-100 backdrop-blur-md border-b border-gray-200/50 shadow z-50">

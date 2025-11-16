@@ -1,7 +1,7 @@
 "use client"
 import { useState, useEffect } from "react"
-import AdminRoute from "@/components/AdminRoute"
-import Toast from "@/components/Toast"
+import AdminRoute from "../../components/AdminRoute"
+import Toast from "../../components/Toast"
 
 export default function ProductsPage() {
   const [products, setProducts] = useState([])

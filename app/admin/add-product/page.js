@@ -1,7 +1,7 @@
 "use client"
 import { useState } from "react"
-import AdminRoute from "@/components/AdminRoute"
-import Toast from "@/components/Toast"
+import AdminRoute from "../../components/AdminRoute"
+import Toast from "../../components/Toast"
 
 export default function AddProductPage() {
   const [form, setForm] = useState({ name: "", price: "", category: "", image: "" })
