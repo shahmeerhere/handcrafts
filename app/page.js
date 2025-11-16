@@ -70,7 +70,7 @@ const ProductCard = ({ title, price }) => (
           </div>
         </section>
 
-
+<Section/>
 
         {/* Product Highlights */}
         <section className="max-w-7xl mx-auto py-12 px-4 flex flex-col gap-12">
