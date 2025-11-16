@@ -26,7 +26,7 @@ export default function Navbar() {
   const loginLink = "/about"; // always points here
 
   return (
-    <nav className="sticky top-0 w-full bg-gradient-to-r from-white via-gray-50 to-gray-100 backdrop-blur-md border-b border-gray-200/50 shadow z-50">
+    <nav className="sticky top-0 w-full z-50 ">
       <div className="flex justify-between items-center h-[70px] px-4 md:px-6">
         {/* Site Name */}
         <Link
@@ -106,11 +106,12 @@ export default function Navbar() {
       )}
 
       {/* SearchBar */}
-      <div className="px-4 pb-3 md:pb-0">
-        <div className="w-full max-w-md mx-auto md:max-w-lg text-black">
+      <div className="px-4 pb-3 md:pb-0 bg-transparent">
+        <div className="w-full flex justify-center">
           <SearchBar />
         </div>
       </div>
+
     </nav>
   );
 }

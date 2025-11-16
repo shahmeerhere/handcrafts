@@ -4,7 +4,6 @@ import React from "react";
 import Section from "./section/page";
 import StructuredData from "./components/StructuredData";
 import Image from "next/image";
-  import { Menu, Search, ShoppingCart, User } from 'lucide-react'; // Example icons
 
 export default function LandingPage() {
 
@@ -49,9 +48,9 @@ const ProductCard = ({ title, price }) => (
             <p className="text-lg md:text-xl text-white leading-relaxed mb-6">
               Discover authentic handcrafted treasures. Each piece is designed to bring character, elegance, and uniqueness to your lifestyle.
             </p>
-            <button className="group mt-4 px-8 md:px-10 py-3 md:py-4 rounded-full bg-white/20 text-white font-semibold tracking-wide flex items-center gap-3 hover:bg-white/30 transition duration-300">
+            <button className="group mt-4 px-8 md:px-10 py-3 md:py-4 rounded-full bg-white/20 text-gray-400 font-semibold tracking-wide flex items-center gap-3 hover:bg-white/30 transition duration-300">
               Explore Collections
-              <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" className="w-5 h-5 text-white transition-colors duration-300">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" className="w-5 h-5 text-gray-400 transition-colors duration-300">
                 <path d="M12 2l2.5 7.5L22 9l-5 4 1.5 7L12 16l-6.5 4 1.5-7-5-4 7.5-1.5L12 2z" />
               </svg>
             </button>
